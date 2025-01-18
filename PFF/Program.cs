@@ -19,7 +19,6 @@ class MainProgram
     {
         string filePath = AppDomain.CurrentDomain.BaseDirectory;
 
-
         // create the signature
         byte[] signature = new byte[] { (byte)'P', (byte)'F', (byte)'F' };
         // get the rgb info
